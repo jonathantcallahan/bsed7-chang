@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Chang is in the Air",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["jquery.js","content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
